@@ -1,0 +1,44 @@
+.First :first-child {
+    background-color: aquamarine;
+}
+
+.First :last-child {
+    background-color: yellow;
+}
+
+.First :nth-child(4) {
+    background-color: yellowgreen;
+}
+
+.Second :nth-child(odd) {
+    background-color: wheat;
+}
+
+.Second :nth-child(even) {
+    background-color: violet;
+}
+
+.Third p:first-of-type {
+    background-color: rgb(5, 118, 80);
+}
+
+.Third p:last-of-type {
+    background-color: blueviolet;
+}
+
+.Third span:first-of-type {
+    background-color: beige;
+}
+
+.Third span:last-of-type {
+    background-color: brown;
+}
+
+
+.Third :nth-of-type(2) {
+    background-color: turquoise;
+}
+
+.Third span:nth-of-type(2) {
+    background-color: coral;
+}

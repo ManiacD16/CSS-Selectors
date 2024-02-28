@@ -1,0 +1,17 @@
+* {
+    background-color: red;
+    color: blueviolet;
+}
+
+.first {
+    background-color: yellow;
+    color: blue;
+}
+
+#seco {
+    background-color: aqua;
+}
+
+.thir {
+    background-image: url();
+}

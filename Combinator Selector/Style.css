@@ -1,0 +1,15 @@
+div p {
+    background-color: aqua;
+}
+
+div.one>p {
+    background-color: aquamarine;
+}
+
+div~p {
+    background-color: yellow;
+}
+
+div.one+p {
+    background-color: yellowgreen;
+}

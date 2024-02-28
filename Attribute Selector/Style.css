@@ -1,0 +1,23 @@
+p[id] {
+    background-color: wheat;
+}
+
+p[class="Chombo"] {
+    background-color: violet;
+}
+
+p[class="Chombu"] {
+    background-color: yellowgreen;
+}
+
+p[class^="Chombi"] {
+    background-color: tomato;
+}
+
+p[class$="Chombi"] {
+    background-color: thistle;
+}
+
+p[class*="Dinge"] {
+    background-color: steelblue;
+}
